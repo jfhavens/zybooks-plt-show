@@ -12,7 +12,7 @@ def plt_show():
     plt.savefig(buffer, format='svg')
     svg_data = base64.b64encode(buffer.getbuffer()).decode('ascii')
     wrapped = textwrap.fill(svg_data, width=80, break_on_hyphens=False)
-    print(f'{BASE_URL}/#')
+    print(f'{BASE_URL}#')
     print(wrapped)
 
 
