@@ -4,7 +4,7 @@ import textwrap
 
 import matplotlib.pyplot as plt
 
-BASE_URL = 'http://localhost:8080/'
+BASE_URL = 'https://jfhavens.github.io/zybooks-plt-show/'
 
 
 def plt_show():
